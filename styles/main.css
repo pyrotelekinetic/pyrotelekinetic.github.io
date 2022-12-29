@@ -24,3 +24,11 @@ nav {
 nav ul {
 	list-style-type: none;
 }
+
+a:link {
+	color: var(--blue);
+}
+
+a:visited {
+	color: var(--blueBright);
+}
