@@ -13,6 +13,19 @@ main {
 	margin-right: auto;
 }
 
+nav {
+	float: left;
+	position: sticky;
+	top: 20%;
+	left: 15%;
+	width: fit-content;
+	font-style: italic;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
 footer {
 	margin-left: auto;
 	margin-right: auto;
@@ -35,19 +48,6 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	width: 732px;
-}
-
-nav {
-	float: left;
-	position: sticky;
-	top: 20%;
-	left: 15%;
-	width: fit-content;
-	font-style: italic;
-}
-
-nav ul {
-	list-style-type: none;
 }
 
 a:link {
