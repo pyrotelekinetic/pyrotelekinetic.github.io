@@ -3,8 +3,8 @@
 
 body {
 	background-image: url("/assets/bg-tile.png");
-	background-color: var(--background);
-	color: var(--foreground);
+	background-color: var(--bg-color);
+	color: var(--fg-color);
 }
 
 nav {
@@ -64,4 +64,16 @@ a:visited {
 
 .center {
 	text-align: center;
+}
+
+:root {
+	--bg-color: var(--background);
+	--fg-color: var(--foreground);
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--bg-color: var(--foreground);
+		--fg-color: var(--background);
+	}
 }
