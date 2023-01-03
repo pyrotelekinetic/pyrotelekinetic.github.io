@@ -61,3 +61,7 @@ a:link {
 a:visited {
 	color: var(--blueBright);
 }
+
+.center {
+	text-align: center;
+}
