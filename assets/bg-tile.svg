@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="36.841034"
+   viewBox="0 0 16.933333 9.7475236"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="drawing.svg"
+   inkscape:export-filename="project/pyro.local/assets/bg-tile.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="12.414927"
+     inkscape:cx="19.130197"
+     inkscape:cy="19.009375"
+     inkscape:window-width="1916"
+     inkscape:window-height="1053"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3461">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.225118;stroke-opacity:1"
+         id="rect3463"
+         width="55.446388"
+         height="31.917223"
+         x="115.06271"
+         y="72.790817" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-106.48395,-67.804951)">
+    <path
+       id="path113-2"
+       style="fill:none;stroke:#000000;stroke-width:0.264583"
+       transform="matrix(0.30540011,0,0,0.30540011,71.343783,45.574627)"
+       d="m 105.53943,88.748975 c -1.60707,0.927843 -16.949789,0.927842 -18.55686,-10e-7 -1.607071,-0.927843 -9.27843,-14.215028 -9.27843,-16.070714 0,-1.855686 7.67136,-15.14287 9.278431,-16.070713 1.607072,-0.927843 16.949789,-0.927843 18.556859,0 1.60707,0.927844 9.27843,14.215029 9.27843,16.070715 0,1.855686 -7.67136,15.14287 -9.27843,16.070713 z m 0,32.141425 c -1.60707,0.92785 -16.949791,0.92785 -18.556862,0 -1.607071,-0.92784 -9.27843,-14.21503 -9.27843,-16.07071 0,-1.85569 7.67136,-15.142872 9.278431,-16.070715 1.607072,-0.927843 16.949791,-0.927843 18.556861,0 1.60707,0.927844 9.27843,14.215025 9.27843,16.070715 0,1.85569 -7.67136,15.14287 -9.27843,16.07071 z m 83.50587,16.07072 c -1.60706,0.92784 -16.94978,0.92784 -18.55685,0 -1.60708,-0.92785 -9.27844,-14.21503 -9.27844,-16.07072 0,-1.85568 7.67136,-15.14287 9.27844,-16.07071 1.60707,-0.92784 16.94978,-0.92784 18.55685,0 1.60707,0.92785 9.27843,14.21503 9.27843,16.07072 0,1.85568 -7.67136,15.14287 -9.27843,16.07071 z m -55.67058,0 c -1.60707,0.92784 -16.94979,0.92784 -18.55686,0 -1.60707,-0.92785 -9.27843,-14.21503 -9.27843,-16.07072 0,-1.85568 7.67136,-15.14287 9.27843,-16.07071 1.60707,-0.92784 16.94979,-0.92784 18.55686,0 1.60707,0.92785 9.27843,14.21503 9.27843,16.07072 0,1.85568 -7.67136,15.14287 -9.27843,16.07071 z m 0,-64.282857 c -1.60707,0.927843 -16.94979,0.927842 -18.55686,-10e-7 -1.60707,-0.927843 -9.27843,-14.215028 -9.27843,-16.070714 0,-1.855686 7.67136,-15.14287 9.27843,-16.070713 1.60708,-0.927843 16.94979,-0.927843 18.55686,0 1.60707,0.927844 9.27843,14.215029 9.27843,16.070715 0,1.855686 -7.67136,15.14287 -9.27843,16.070713 z m 55.67059,0 c -1.60707,0.927843 -16.94979,0.927842 -18.55686,-10e-7 -1.60707,-0.927843 -9.27843,-14.215028 -9.27843,-16.070714 0,-1.855686 7.67136,-15.14287 9.27843,-16.070713 1.60707,-0.927843 16.94979,-0.927843 18.55686,0 1.60707,0.927844 9.27843,14.215029 9.27843,16.070715 0,1.855686 -7.67136,15.14287 -9.27843,16.070713 z m 0,32.141427 c -1.60707,0.92784 -16.94979,0.92784 -18.55686,0 -1.60707,-0.92784 -9.27843,-14.215028 -9.27843,-16.070714 0,-1.855686 7.67136,-15.14287 9.27843,-16.070713 1.60707,-0.927843 16.94979,-0.927843 18.55686,0 1.60707,0.927844 9.27843,14.215029 9.27843,16.070715 0,1.855686 -7.67136,15.142872 -9.27843,16.070712 z m -27.8353,16.07072 c -1.60707,0.92784 -16.94979,0.92784 -18.55686,0 -1.60707,-0.92785 -9.27843,-14.21503 -9.27843,-16.07072 0,-1.85568 7.67136,-15.142869 9.27843,-16.070712 1.60708,-0.927843 16.94979,-0.927843 18.55686,0 1.60707,0.927844 9.27843,14.215032 9.27843,16.070712 0,1.85569 -7.67136,15.14287 -9.27843,16.07072 z m 10e-6,-32.141431 c -1.60707,0.927843 -16.94979,0.927842 -18.55686,-1e-6 -1.60708,-0.927843 -9.27843,-14.215028 -9.27843,-16.070714 0,-1.855686 7.67136,-15.14287 9.27843,-16.070713 1.60707,-0.927843 16.94979,-0.927843 18.55686,0 1.60707,0.927844 9.27843,14.215029 9.27843,16.070715 0,1.855686 -7.67136,15.14287 -9.27843,16.070713 z m -27.8353,16.070711 c -1.60707,0.92784 -16.94979,0.92784 -18.55686,0 -1.60707,-0.92784 -9.27843,-14.215028 -9.27843,-16.070714 0,-1.855686 7.67136,-15.14287 9.27843,-16.070713 1.60707,-0.927843 16.94979,-0.927843 18.55686,0 1.60707,0.927844 9.27843,14.215029 9.27843,16.070715 0,1.855686 -7.67136,15.142872 -9.27843,16.070712 z"
+       clip-path="url(#clipPath3461)"
+       inkscape:transform-center-x="1.161576e-06" />
+  </g>
+  <metadata
+     id="metadata113">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Carter &quot;pyrotelekinetic&quot; Ison</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:date>2023</dc:date>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Copyright (C) 2022  Carter &quot;pyrotelekinetic&quot; Ison &lt;carter@isons.org&gt;</dc:title>
+          </cc:Agent>
+        </dc:rights>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
