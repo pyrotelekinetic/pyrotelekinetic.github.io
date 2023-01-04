@@ -5,6 +5,9 @@ body {
 	background-image: url("/assets/bg-tile.png");
 	background-color: var(--bg-color);
 	color: var(--fg-color);
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 nav {
@@ -22,6 +25,7 @@ nav ul {
 
 main {
 	width: fit-content;
+	max-width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 }
