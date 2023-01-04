@@ -44,8 +44,9 @@ footer {
 	border-top: 4px solid var(--blackBright);
 }
 
-#badges {
+ul#badges {
 	float: right;
+	list-style-type: none;
 }
 
 #john {
