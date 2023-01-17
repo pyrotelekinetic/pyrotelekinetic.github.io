@@ -3,6 +3,7 @@
 
 body {
 	background-image: url("/assets/bg-tile.png");
+	background-blend-mode: overlay;
 	background-color: var(--background);
 	color: var(--foreground);
 	width: fit-content;
