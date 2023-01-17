@@ -28,3 +28,10 @@
 	--white: #afafaf;
 	--whiteBright: #c9c9c8;
 }
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--foreground: #1c1c1c;
+		--background: #afafaf;
+	}
+}
