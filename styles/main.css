@@ -4,6 +4,7 @@
 body {
 	background-image: url("/assets/bg-tile.png");
 	background-color: var(--background);
+	font-family: "IBM Plex Mono", monospace;
 	color: var(--foreground);
 	width: fit-content;
 	margin-left: auto;
