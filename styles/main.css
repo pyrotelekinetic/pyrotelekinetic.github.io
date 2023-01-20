@@ -50,7 +50,7 @@ footer {
 	width: fit-content;
 	padding-left: 4px;
 	padding-right: 4px;
-	border-top: 4px solid var(--blackBright);
+	border-top: 4px solid var(--foreground);
 }
 
 ul#badges {
