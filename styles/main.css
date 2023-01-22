@@ -17,9 +17,7 @@ body {
 }
 
 header {
-	width: fit-content;
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
 	color: var(--green);
 	font-style: italic;
 }
