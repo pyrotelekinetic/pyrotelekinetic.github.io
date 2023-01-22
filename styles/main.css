@@ -22,7 +22,7 @@ header {
 	margin-right: 8px;
 	color: var(--green);
 	font-style: italic;
-	border-bottom: solid 4px;
+	border-bottom: solid 4px var(--magenta);
 }
 
 header h1::before {
@@ -62,7 +62,7 @@ footer {
 	width: 50vw;
 	padding-left: 4px;
 	padding-right: 4px;
-	border-top: 4px solid var(--foreground);
+	border-top: 4px solid var(--magenta);
 }
 
 ul#badges {
