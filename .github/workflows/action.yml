@@ -21,13 +21,16 @@ jobs:
     - name: Build Site
       run: nix build
 
+    - name: Workaround File Permissions # See (https://github.com/actions/deploy-pages/issues/58)
+      run: cp -r -L --no-preserve=mode,ownership result/site artifact
+
     - name: Configure GitHub Pages
       uses: actions/configure-pages@v3.0.2
 
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v1.0.7
       with:
-        path: result/site
+        path: artifact
 
   deploy:
     needs: build
