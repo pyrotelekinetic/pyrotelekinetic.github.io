@@ -25,9 +25,22 @@ outputs = { self, nixpkgs, yip }:
 		pkgs.stdenv.mkDerivation {
 			name = "static site";
 			src = ./site;
-			buildInputs = [ yip.packages.x86_64-linux.default ];
-			buildPhase = "yip index.html > new-index.html";
-			installPhase = "mkdir -p $out/site; cp new-index.html $out/site/index.html";
+			buildInputs = [
+				pkgs.fd
+				yip.packages.x86_64-linux.default
+			];
+			buildPhase = ''
+				fd -t d -E assets/ -E templates/ -x mkdir -p out/{};
+				fd -t f -E assets/ -E templates/ -e html -e css -x sh -c 'yip {} > out/{}';
+			'';
+			#buildPhase = ''fd -e html -e css -E templates/ -x sh -c 'yip {} > {}' '';
+			#checkPhase = "fd";
+			#doCheck = true;
+			installPhase = ''
+				mkdir -p $out/site;
+				cp -r out/* $out/site;
+				cp -r assets/ $out/site;
+			'';
 		};
 	};
 
