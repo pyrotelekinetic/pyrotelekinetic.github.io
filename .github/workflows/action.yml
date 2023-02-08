@@ -1,0 +1,42 @@
+name: "Publish Site"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout Source
+      uses: actions/checkout@v3.3.0
+
+    - name: Initialize Nix
+      uses: cachix/install-nix-action@v19
+      with:
+        install_url: https://releases.nixos.org/nix/nix-2.12.0/install
+
+    - name: Build Site
+      run: nix build
+
+    - name: Upload Artifact
+      uses: actions/upload-pages-artifact@v1.0.7
+      with:
+        path: result/site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1.2.4
