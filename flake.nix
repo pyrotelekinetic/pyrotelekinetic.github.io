@@ -15,7 +15,6 @@ inputs = {
 		owner = "pyrotelekinetic";
 		repo = "yip";
 		ref = "main";
-		rev = "c5a68b12e56aea7e0e2713bfafaa5fce5baf5dbf";
 	};
 };
 

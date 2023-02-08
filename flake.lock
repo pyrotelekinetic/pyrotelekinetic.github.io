@@ -2,11 +2,11 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1675061157,
-        "narHash": "sha256-F7/F65ZFWbq7cKSiV3K2acxCv64jKaZZ/K0A3VNT2kA=",
+        "lastModified": 1675823894,
+        "narHash": "sha256-ASJZony4/+Up7hwqBJ1SxWJT2VuIykx4sHL8AQwdSLY=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "f413457e0dd7a42adefdbcea4391dd9751509025",
+        "rev": "b471f727a72bcf8526974d429bbe4df22cf7303d",
         "type": "github"
       },
       "original": {
@@ -43,18 +43,17 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1675062268,
-        "narHash": "sha256-XSaEtBbPD2SaAV4a8cm9VOtcAR7+t3MsnHAbA28MzHs=",
+        "lastModified": 1675803899,
+        "narHash": "sha256-zwLx0E1hrEkQi9Bq7bV4OHvRfKLDiDcarc5gu/vSJj8=",
         "owner": "pyrotelekinetic",
         "repo": "yip",
-        "rev": "c5a68b12e56aea7e0e2713bfafaa5fce5baf5dbf",
+        "rev": "b96f964cf6f6ec78a5d8ef35daae2b7bbfa630a9",
         "type": "github"
       },
       "original": {
         "owner": "pyrotelekinetic",
         "ref": "main",
         "repo": "yip",
-        "rev": "c5a68b12e56aea7e0e2713bfafaa5fce5baf5dbf",
         "type": "github"
       }
     }
