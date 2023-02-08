@@ -21,6 +21,9 @@ jobs:
     - name: Build Site
       run: nix build
 
+    - name: Configure GitHub Pages
+      uses: actions/configure-pages@v3.0.2
+
     - name: Upload Artifact
       uses: actions/upload-pages-artifact@v1.0.7
       with:
