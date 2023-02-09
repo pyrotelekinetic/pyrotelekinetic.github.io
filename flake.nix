@@ -33,9 +33,6 @@ outputs = { self, nixpkgs, yip }:
         fd -t d -E assets/ -E templates/ -x mkdir -p out/{};
         fd -t f -E assets/ -E templates/ -e html -e css -x sh -c 'yip {} > out/{}';
       '';
-      #buildPhase = ''fd -e html -e css -E templates/ -x sh -c 'yip {} > {}' '';
-      #checkPhase = "fd";
-      #doCheck = true;
       installPhase = ''
         mkdir -p $out/site;
         cp -r out/* $out/site;
