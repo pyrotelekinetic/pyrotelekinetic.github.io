@@ -73,6 +73,11 @@ ul#badges {
 	padding: 0;
 }
 
+ul#words {
+	list-style-type: none;
+	padding: 0;
+}
+
 #john {
 	margin-top: 1rem;
 	margin-left: auto;
