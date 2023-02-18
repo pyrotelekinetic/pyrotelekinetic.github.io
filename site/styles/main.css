@@ -6,10 +6,12 @@ body {
 	background-color: var(--background);
 	font-family: "IBM Plex Mono", monospace;
 	color: var(--foreground);
+	min-height: 95vh;
 
 	display: grid;
 	grid-gap: 1rem;
 	grid-template-columns: 1fr 4fr 1fr;
+	grid-template-rows: auto 1fr auto;
 	grid-template-areas:
 	"header header header"
 	"nav main side"
