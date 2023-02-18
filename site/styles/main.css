@@ -45,7 +45,7 @@ header h1::after {
 
 nav {
 	grid-area: nav;
-	width: fit-content;
+	margin-left: auto;
 	font-style: italic;
 }
 
