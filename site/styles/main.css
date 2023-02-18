@@ -11,9 +11,9 @@ body {
 
 	display: grid;
 	grid-template-areas:
-	"header header"
-	"nav main"
-	"footer footer";
+	"header header header"
+	"nav main side"
+	"footer footer footer";
 }
 
 @media (prefers-color-scheme: light) {
