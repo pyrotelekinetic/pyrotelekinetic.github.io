@@ -73,19 +73,19 @@ footer {
 	"john john";
 }
 
-ul#badges {
+footer ul#badges {
 	grid-area: badges;
 	list-style-type: none;
 	padding: 0;
 }
 
-ul#words {
+footer ul#words {
 	grid-area: words;
 	list-style-type: none;
 	padding: 0;
 }
 
-#john {
+footer div#john {
 	grid-area: john;
 	margin-top: 1rem;
 	margin-left: auto;
