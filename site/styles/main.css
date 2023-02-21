@@ -24,7 +24,7 @@ body {
 	}
 }
 
-header {
+body>header {
 	grid-area: header;
 	text-align: center;
 	margin-left: 8px;
@@ -34,12 +34,12 @@ header {
 	border-bottom: solid 4px var(--magenta);
 }
 
-header h1::before {
+body>header>h1::before {
 	content: "[";
 	font-style: normal;
 }
 
-header h1::after {
+body>header>h1::after {
 	content: "]";
 	font-style: normal;
 }
@@ -50,7 +50,7 @@ nav {
 	font-style: italic;
 }
 
-nav ul {
+nav>ul {
 	list-style-type: none;
 	padding: 0;
 }
@@ -59,7 +59,7 @@ main {
 	grid-area: main;
 }
 
-footer {
+body>footer {
 	grid-area: footer;
 	margin-left: 8px;
 	margin-right: 8px;
@@ -73,19 +73,19 @@ footer {
 	"john john";
 }
 
-footer ul#badges {
+body>footer>ul#badges {
 	grid-area: badges;
 	list-style-type: none;
 	padding: 0;
 }
 
-footer ul#words {
+body>footer>ul#words {
 	grid-area: words;
 	list-style-type: none;
 	padding: 0;
 }
 
-footer div#john {
+body>footer>div#john {
 	grid-area: john;
 	margin-top: 1rem;
 	margin-left: auto;
