@@ -100,3 +100,22 @@ a:link {
 a:visited {
 	color: var(--blueBright);
 }
+
+cite {
+	color: var(--green);
+}
+
+cite::before {
+	content: "[";
+	font-style: normal;
+}
+
+cite::after {
+	content: "]";
+	font-style: normal;
+}
+
+time {
+	color: var(--yellow);
+	font-weight: bold;
+}
