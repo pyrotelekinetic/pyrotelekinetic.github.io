@@ -24,6 +24,14 @@ body {
 	}
 }
 
+.card {
+	width: fit-content;
+	height: fit-content;
+	padding: 8px;
+	background-color: var(--card);
+	border-radius: 8px;
+}
+
 header {
 	grid-area: header;
 	text-align: center;
@@ -32,6 +40,11 @@ header {
 	color: var(--green);
 	font-style: italic;
 	border-bottom: solid 4px var(--magenta);
+}
+
+header h1 {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header h1::before {
@@ -76,13 +89,11 @@ footer {
 footer ul#badges {
 	grid-area: badges;
 	list-style-type: none;
-	padding: 0;
 }
 
 footer ul#words {
 	grid-area: words;
 	list-style-type: none;
-	padding: 0;
 }
 
 footer div#john {
