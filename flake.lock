@@ -43,11 +43,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1676834833,
-        "narHash": "sha256-ZNK0YaPLTuJgitPqvkxwDy2+orpDdBIxkpY4hf2uSGY=",
+        "lastModified": 1678054182,
+        "narHash": "sha256-0L99SI2/wBb3izT/G/sN2QeQIy3zN0n3WLyZhSHy2VI=",
         "owner": "pyrotelekinetic",
         "repo": "yip",
-        "rev": "be42bbdd83b08d7dbc277fb5ae9f7ebad8a904cb",
+        "rev": "1b2659295745317f2f2ccf8e490ceb79b1ac3b0c",
         "type": "github"
       },
       "original": {
