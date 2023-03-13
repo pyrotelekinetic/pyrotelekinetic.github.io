@@ -16,6 +16,80 @@
 	DATE:UNPUBLISHED
 	TIME:UNPUBLISHED
 :}
+
+	<section>
+	<h3>
+		The Origin of pyrosite
+	</h3>
+
+	<p>
+		I wanted a website. pyrosite. Since I don't have a server set up to host
+		one, I turned to GitHub Pages. It's free, and I already use GitHub.
+	</p>
+
+	<p>
+		GitHub Pages is fairly simple by default. You commit the root of your static
+		site and GitHub will automatically serve it on your github.io domain. You
+		can't do any dynamic site stuff, but I don't want to anyway.
+	</p>
+
+	<p>
+		The first few iterations of pyrosite were just that: I created a GitHub
+		repo, slapped on some html and a little css, and politely asked GitHub to
+		serve it to GitHub Pages.
+	</p>
+
+	<p>
+		It worked. Things were good.
+	</p>
+	</section>
+
+	<section>
+	<h3>
+		I wasn't satisfied
+	</h3>
+
+	<p>
+		html doesn't have any built in mechanism to reuse code, or markup, or
+		whatever it technically is. This sucks.
+	</p>
+
+	<p>
+		pyrosite has <i>lots</i> of repetition, as most sites do. Things like a
+		footer, for example, are usually (mostly) identical on every page.
+	</p>
+
+	<p>
+		Why would I rewrite the same thing at the end of every file? This is
+		clearly something to automate. Obviously I should create a Nix Flake for
+		pyrosite. I think you can configure GitHub Pages to run stuff on the code
+		before it publishes it, so I'll just have it run <code>nix build</code>.
+	</p>
+
+	<p>
+		This will definitely work, so looking into whether this will work or not is
+		a waste of time. Let's go.
+	</p>
+	</section>
+
+	<section>
+	<h3>
+		Flake Time
+	</h3>
+
+	<p>
+		First off we'll move everything in the repo to a sub directory. I'll tell
+		you why later.
+	</p>
+
+	<p>
+		Now a flake file. It's called <code>flake.nix</code> and it goes in the root
+		of the repo. Inside is a Nix expression, containing the attributes
+		<code>inputs</code>, <code>outputs</code>, and sometimes
+		<code>description</code>.
+	</p>
+	</section>
+
 	</article>
 	</main>
 
