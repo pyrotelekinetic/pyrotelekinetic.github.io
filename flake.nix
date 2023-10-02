@@ -3,25 +3,14 @@
 description = "pyrosite: my personal website";
 
 inputs = {
-  nixpkgs = {
-    type = "github";
-    owner = "NixOS";
-    repo = "nixpkgs";
-    ref = "release-22.11";
-  };
-
-  yip = {
-    type = "github";
-    owner = "pyrotelekinetic";
-    repo = "yip";
-    ref = "main";
-  };
+  nixpkgs.url = "github:NixOS/nixpkgs/release-22.11";
+  yip.url = "github:pyrotelekinetic/yip/main";
 };
 
-outputs = { self, nixpkgs, yip }:
-  {
+outputs = { self, nixpkgs, yip }: let
+  pkgs = nixpkgs.legacyPackages.x86_64-linux;
+in {
   packages.x86_64-linux.default =
-    with import nixpkgs { system = "x86_64-linux"; };
     pkgs.stdenv.mkDerivation {
       name = "static site";
       src = ./site;
