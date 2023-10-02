@@ -3,7 +3,7 @@
 description = "pyrosite: my personal website";
 
 inputs = {
-  nixpkgs.url = "github:NixOS/nixpkgs/release-22.11";
+  nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   yip.url = "github:pyrotelekinetic/yip/main";
 };
 
