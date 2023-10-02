@@ -18,6 +18,22 @@
     },
     "nixpkgs_2": {
       "locked": {
+        "lastModified": 1696019113,
+        "narHash": "sha256-X3+DKYWJm93DRSdC5M6K5hLqzSya9BjibtBsuARoPco=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f5892ddac112a1e9b3612c39af1b72987ee5783a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
         "lastModified": 1695360818,
         "narHash": "sha256-JlkN3R/SSoMTa+CasbxS1gq+GpGxXQlNZRUh9+LIy/0=",
         "owner": "NixOS",
@@ -32,15 +48,35 @@
         "type": "github"
       }
     },
+    "pyroscheme": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1696283915,
+        "narHash": "sha256-QJUiSYz/5MT8rdnfK4/wx1MxoMMRgaxkiqMzHb+eNYY=",
+        "owner": "pyrotelekinetic",
+        "repo": "pyroscheme",
+        "rev": "127cd54855d5c52445394d5cc6ef65ec33f92ad2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "pyrotelekinetic",
+        "ref": "main",
+        "repo": "pyroscheme",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
+        "pyroscheme": "pyroscheme",
         "yip": "yip"
       }
     },
     "yip": {
       "inputs": {
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_3"
       },
       "locked": {
         "lastModified": 1695773048,

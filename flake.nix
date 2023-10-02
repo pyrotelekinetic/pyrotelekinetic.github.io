@@ -5,10 +5,12 @@ description = "pyrosite: my personal website";
 inputs = {
   nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   yip.url = "github:pyrotelekinetic/yip/main";
+  pyroscheme.url = "github:pyrotelekinetic/pyroscheme/main";
 };
 
-outputs = { self, nixpkgs, yip }: let
+outputs = { self, nixpkgs, yip, pyroscheme }: let
   pkgs = nixpkgs.legacyPackages.x86_64-linux;
+  colors = pyroscheme.formats.css;
 in {
   packages.x86_64-linux.default =
     pkgs.stdenv.mkDerivation {
@@ -26,6 +28,7 @@ in {
         mkdir -p $out/site;
         cp -r out/* $out/site;
         cp -r assets/ $out/site;
+        cp ${colors} $out/site/styles/colors.css
       '';
     };
   };
