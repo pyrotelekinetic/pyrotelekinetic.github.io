@@ -20,7 +20,9 @@ body {
 
 @media (prefers-color-scheme: light) {
 	body {
+		color: var(--black);
 		background-image: url("/assets/bg-tile-light.png");
+		background-color: #cccccc;
 	}
 }
 
