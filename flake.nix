@@ -9,16 +9,18 @@ inputs = {
 };
 
 outputs = { self, nixpkgs, yip, pyroscheme }: let
-  pkgs = nixpkgs.legacyPackages.x86_64-linux;
+  supportedSystems = nixpkgs.lib.systems.flakeExposed;
+  allSystems = output: nixpkgs.lib.genAttrs supportedSystems
+    (system: output nixpkgs.legacyPackages.${system});
   colors = pyroscheme.formats.css;
 in {
-  packages.x86_64-linux.default =
-    pkgs.stdenv.mkDerivation {
+  packages = allSystems (pkgs: {
+    default = pkgs.stdenv.mkDerivation {
       name = "static site";
       src = ./site;
       buildInputs = [
         pkgs.fd
-        yip.packages.x86_64-linux.default
+        yip.packages.${pkgs.system}.default
       ];
       buildPhase = ''
         fd -t d -E assets/ -E templates/ -x mkdir -p out/{};
@@ -31,6 +33,7 @@ in {
         cp ${colors} $out/site/styles/colors.css
       '';
     };
-  };
+  });
+};
 
 }
