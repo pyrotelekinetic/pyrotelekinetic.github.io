@@ -2,11 +2,11 @@
   "nodes": {
     "nixpkgs": {
       "locked": {
-        "lastModified": 1696019113,
-        "narHash": "sha256-X3+DKYWJm93DRSdC5M6K5hLqzSya9BjibtBsuARoPco=",
+        "lastModified": 1740367490,
+        "narHash": "sha256-WGaHVAjcrv+Cun7zPlI41SerRtfknGQap281+AakSAw=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "f5892ddac112a1e9b3612c39af1b72987ee5783a",
+        "rev": "0196c0175e9191c474c26ab5548db27ef5d34b05",
         "type": "github"
       },
       "original": {
@@ -18,11 +18,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1696019113,
-        "narHash": "sha256-X3+DKYWJm93DRSdC5M6K5hLqzSya9BjibtBsuARoPco=",
+        "lastModified": 1705133751,
+        "narHash": "sha256-rCIsyE80jgiOU78gCWN3A0wE0tR2GI5nH6MlS+HaaSQ=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "f5892ddac112a1e9b3612c39af1b72987ee5783a",
+        "rev": "9b19f5e77dd906cb52dade0b7bd280339d2a1f3d",
         "type": "github"
       },
       "original": {
@@ -34,11 +34,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1695360818,
-        "narHash": "sha256-JlkN3R/SSoMTa+CasbxS1gq+GpGxXQlNZRUh9+LIy/0=",
+        "lastModified": 1704722960,
+        "narHash": "sha256-mKGJ3sPsT6//s+Knglai5YflJUF2DGj7Ai6Ynopz0kI=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "e35dcc04a3853da485a396bdd332217d0ac9054f",
+        "rev": "317484b1ead87b9c1b8ac5261a8d2dd748a0492d",
         "type": "github"
       },
       "original": {
@@ -53,11 +53,11 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1696283915,
-        "narHash": "sha256-QJUiSYz/5MT8rdnfK4/wx1MxoMMRgaxkiqMzHb+eNYY=",
+        "lastModified": 1708288899,
+        "narHash": "sha256-Dzz8Mc0RuPKEmnFz+Z2xLQtu8MqIRHF/kyDNxrxFWTM=",
         "owner": "pyrotelekinetic",
         "repo": "pyroscheme",
-        "rev": "127cd54855d5c52445394d5cc6ef65ec33f92ad2",
+        "rev": "49ed6ece84641396f51d31d47bcf1f19505d478f",
         "type": "github"
       },
       "original": {
@@ -79,11 +79,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1695773048,
-        "narHash": "sha256-9j83hiNIW9jwC+uzvlHifHeXtq8D8HTk+wFooSzajPc=",
+        "lastModified": 1707858316,
+        "narHash": "sha256-sjJmezHNDNgwBnSq1Hm+LLF+5lwSblHuJ8ANGvaqpck=",
         "owner": "pyrotelekinetic",
         "repo": "yip",
-        "rev": "fb64a9fb78fd847e4d4be2e5259b2ac958f0fa5f",
+        "rev": "3ef04526e57f0f40d71a3a5a4615f3200ac2f38b",
         "type": "github"
       },
       "original": {
