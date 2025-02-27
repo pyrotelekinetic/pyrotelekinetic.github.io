@@ -12,7 +12,6 @@ outputs = { self, nixpkgs, yip, pyroscheme }: let
   supportedSystems = nixpkgs.lib.systems.flakeExposed;
   allSystems = output: nixpkgs.lib.genAttrs supportedSystems
     (system: output nixpkgs.legacyPackages.${system});
-  colors = pyroscheme.formats.css;
 in {
   packages = allSystems (pkgs: {
     default = pkgs.stdenv.mkDerivation {
@@ -30,7 +29,7 @@ in {
         mkdir -p $out/site;
         cp -r out/* $out/site;
         cp -r assets/ $out/site;
-        cp ${colors} $out/site/styles/colors.css
+        cp ${pyroscheme.packages.${pkgs.system}.css} $out/site/styles/colors.css
       '';
     };
   });
